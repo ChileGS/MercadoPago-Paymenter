@@ -1,0 +1,11 @@
+{
+  "name": "chilegs/paymenter-mercadopago",
+  "description": "Gateway MercadoPago Checkout Pro para Paymenter",
+  "type": "library",
+  "require": {
+    "mercadopago/dx-php": "^3.5.1"
+  },
+  "autoload": {
+    "psr-4": { "chilegs\\MercadoPago\\": "src/" }
+  }
+}
